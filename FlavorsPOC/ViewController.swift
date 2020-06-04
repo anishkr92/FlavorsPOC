@@ -54,14 +54,16 @@ class ViewController: UIViewController {
         labelConfigModeValue.text = "Release mode"
         #endif
         
-        let version = Bundle.main.versionNumber
-        labelVersionValue.text = version ?? "-"
+        if let version = Bundle.main.versionNumber {
+            labelVersionValue.text = version
+        }
+        if let productName = Bundle.main.productName {
+            labelProductNameValue.text = productName
+        }
         
-        let productName = Bundle.main.productName
-        labelProductNameValue.text = productName ?? "-"
-        
-        let bundleID = Bundle.main.bundleIdentifier
-        labelBundleIdValue.text = bundleID ?? "-"
+        if let bundleID = Bundle.main.bundleIdentifier {
+            labelBundleIdValue.text = bundleID
+        }
     }
 }
 
