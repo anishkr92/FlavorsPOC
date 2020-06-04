@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F8C2EF722449B6C600F3A8AA"
-               BuildableName = "FlavorsPOC.app"
+               BuildableName = "FlavorsPOC-DEV.app"
                BlueprintName = "FlavorsPOC"
                ReferencedContainer = "container:FlavorsPOC.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8C2EF722449B6C600F3A8AA"
-            BuildableName = "FlavorsPOC.app"
+            BuildableName = "FlavorsPOC-DEV.app"
             BlueprintName = "FlavorsPOC"
             ReferencedContainer = "container:FlavorsPOC.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F8C2EF722449B6C600F3A8AA"
-            BuildableName = "FlavorsPOC.app"
+            BuildableName = "FlavorsPOC-DEV.app"
             BlueprintName = "FlavorsPOC"
             ReferencedContainer = "container:FlavorsPOC.xcodeproj">
          </BuildableReference>
